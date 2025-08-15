@@ -498,6 +498,11 @@ footer{
   .btn-contact{
     margin-top: 4%;
   }
+
+  .nav-links{
+    gap: 0.8rem;
+  }
+
 }
 
 @keyframes float1 {
