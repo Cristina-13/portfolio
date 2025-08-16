@@ -254,24 +254,6 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-.responsibilities-list {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.responsibilities-list li {
-  margin-bottom: 0.2rem;
-  padding-left: 1.2rem;
-  position: relative;
-}
-
-.responsibilities-list li::before {
-  content: "✔";
-  color: #787878;
-  position: absolute;
-  left: 0;
-}
-
 .seo-grid.dim-inactive .grid-box:not(.active) {
   opacity: 0.5;
   transform: scale(0.95);
@@ -454,6 +436,7 @@ footer{
 
   .hero .p-hero {
     font-size: 0.9rem;
+    margin: 5% 7.5% 4% 7.5%;
   }
 
   .btn {
@@ -472,11 +455,6 @@ footer{
     text-align: center; 
   }
 
-  .p-hero{
-    margin: 5% 7.5% 4% 7.5%;
-    
-  }
-
   .h2-about{
     margin-bottom: 5%;
   }
@@ -485,11 +463,24 @@ footer{
     margin-top: 5%;
     margin-left: 7.5%;
     margin-right: 7.5%;
+    
   }
 
   .h2-projects{
     margin-bottom: 4%;
   }
+
+.seo-grid .p-grid {
+  text-align: justify;
+}
+
+.sample-content-inner p {
+  text-align: justify;
+}
+
+.sample-content-inner h4 {
+  text-align: center
+}
 
   .p-contact{
     margin-top: 5%;
