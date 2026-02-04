@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /aviso-legal.html
+Disallow: /privacidad.html
+Disallow: /en/legal-notice.html
+Disallow: /en/privacy.html
+
+Sitemap: https://ccdesigns.eu/sitemap.xml
