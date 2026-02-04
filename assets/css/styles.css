@@ -961,6 +961,15 @@ main {
         top: 20px;
         right: 25px;
         font-size: 2.5rem;
+
+        background: none;
+        border: none;
+        outline: none;
+        -webkit-appearance: none; 
+        box-shadow: none;
+        padding: 0;
+        color: #3a3a3a;
+        cursor: pointer;
     }
 
     .nav-menu-wrapper .nav-group {
@@ -993,7 +1002,7 @@ main {
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .hero-text h1 {
         font-size: 1.8rem;
         padding: 0 10px;
@@ -1010,6 +1019,31 @@ main {
     .contact-content {
         grid-template-columns: 1fr;
         gap: 15px;
+    }
+
+    .contact-info {
+        text-align: center; 
+    }
+
+    .info-item h3 {
+        text-align: center; 
+    }
+
+    .info-item p {
+        text-align: center; 
+        margin: 0 auto;
+    }
+
+    .checkbox-group {
+        justify-content: center;
+        text-align: center;      
+    }
+    
+    .contact-form .btn {
+        margin: 0 auto; 
+        display: block;  
+        width: 100%;    
+        max-width: 300px;
     }
 
     .project-card {
