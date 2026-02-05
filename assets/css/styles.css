@@ -13,6 +13,7 @@ body {
   background-color: #ffffff;
   color: #3a3a3a;
   font-size: 0.95rem;
+  -webkit-text-size-adjust: 100%; /* Evita cambios de texto raros en iPhone */
 }
 
 .btn {
@@ -123,6 +124,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: flex-end; 
+    align-items: center;
 }
 
 .lang-selector {
@@ -984,10 +986,19 @@ main {
         font-size: 1.5rem;
     }
 
+    .bottom-bar {
+        height: auto; 
+        padding: 3px 0; 
+    }
+
     .bottom-bar-container {
         width: 100%; 
         padding: 0; 
         position: relative; 
+    }
+
+    .lang-selector {
+        font-size: 0.9rem; 
     }
 
     .whatsapp-btn {
