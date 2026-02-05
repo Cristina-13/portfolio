@@ -100,7 +100,7 @@ body {
     order: 2; 
     display: flex;
     justify-content: center;
-    padding: 0 40px;
+    padding: 3px 40px 0px 40px;
 }
 
 .logo img {
@@ -922,6 +922,7 @@ main {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        margin-top: 3px;
     }
 
     .mobile-menu-btn {
