@@ -13,7 +13,7 @@ body {
   background-color: #ffffff;
   color: #3a3a3a;
   font-size: 0.95rem;
-  -webkit-text-size-adjust: 100%; /* Evita cambios de texto raros en iPhone */
+  -webkit-text-size-adjust: 100%;
 }
 
 .btn {
@@ -1048,6 +1048,10 @@ main {
     .checkbox-group {
         justify-content: center;
         text-align: center;      
+    }
+
+    .checkbox-group input {
+        margin-top: 3px;
     }
     
     .contact-form .btn {
