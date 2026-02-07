@@ -614,7 +614,7 @@ main {
     justify-content: space-between; 
     align-items: center;
     font-size: 0.75rem;
-    color: #86868b;
+    color: #292929;
 }
 
 .footer-left {
@@ -637,7 +637,7 @@ main {
 }
 
 .footer-center a {
-    color: #86868b;
+    color: #292929;
     text-decoration: none;
 }
 
@@ -649,7 +649,7 @@ main {
 }
 
 .footer-right a {
-    color: #a1a1a6;
+    color: #292929;
     text-decoration: none;
 }
 
@@ -658,7 +658,7 @@ main {
 }
 
 .separator {
-    color: #d2d2d7;
+    color: #292929;
 }
 
 .copyright {
